@@ -28676,7 +28676,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.setDefaultStore = setDefaultStore;
 function setDefaultStore() {
-  var defaultUsers = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : ['Person 1', 'Person 2', 'Person 3'];
+  var defaultUsers = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : ['Redux Person 1', 'Redux Person 2', 'Redux Person 3', 'Redux Person 4', 'Redux Person 5'];
 
   return {
     type: 'DEFAULT_USERS',

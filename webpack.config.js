@@ -12,7 +12,7 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /(node_modules)/,
-        loader: require.resolve('babel-loader')
+        loader: require.resolve('babel-loader'),
       }
     ]
   }

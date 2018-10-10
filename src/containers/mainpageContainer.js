@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import Mainpage from '../components/mainpage';
-
+import { setDefaultStore } from '../actions';
 
 const mapStateToProps = reduxState => {
   return {
@@ -8,13 +8,13 @@ const mapStateToProps = reduxState => {
   };
 };
 
-// const mapDispatchToProps = dispatch => {
-//   return {
-//     fetchUsers: () => dispatch(fetchUsers())
-//   };
-// };
+const mapDispatchToProps = dispatch => {
+  return {
+    setDefault: () => dispatch(setDefaultStore())
+  };
+};
 
 export default connect(
-  mapStateToProps
-  // mapDispatchToProps
+  mapStateToProps,
+  mapDispatchToProps
 )(Mainpage);

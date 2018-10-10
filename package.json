@@ -16,6 +16,12 @@
   "bugs": {
     "url": "https://github.com/Ethanng329/fbtinder/issues"
   },
+  "babel": {
+    "presets": [
+      "babel-preset-react",
+      "babel-preset-env"
+    ]
+  },
   "dependencies": {
     "@babel/core": "^7.1.2",
     "react-redux": "^5.0.7",
